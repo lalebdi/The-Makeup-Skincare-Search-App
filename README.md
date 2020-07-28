@@ -1,6 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## The Makeup & Skincare Search Database:
+<br />
+The makeup and skincare industries are billion dollar industries with continuous innovation and advancement. 
+<br />
+<br />
+Everyone is unique in their reaction to different ingredients in the skincare, or have different concerns that they want to address. This search app will help you see the ingredients and so you know what you are investing in. Also, to avoid anything that can provoke any interaction with your skincare stables or your body, so you avoid any unwanted side effects.
+<br />
+<br />
+Similar to skincare, makeup can be overwhelming. There are a lot of makeup products out there and often it is hard to choose. In this app, we collected the makeup stables. These are the most popular ones, not seasonal. You can see the different shades, prices and what brands carry.  
+
+<br />
+<br />
 
 In the project directory, you can run:
 
@@ -9,60 +20,67 @@ In the project directory, you can run:
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<br />
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `APIs`
 
-### `npm run build`
+I'm using 2 large APIs for this project. One for skincare and the other is for makeup.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br />
+The skincare API: https://skincare-api.herokuapp.com <br/>
+The makeup API : http://makeup-api.herokuapp.com/api/v1/products.json
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### `Tech Challenges:`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Mainly time, however, I would like to implement some of React's features:
+<br />
+1- React Router.
+<br />
+2- Axios.
+<br />
+3- React Hooks.
+<br />
+4- React Bootstrap.
+<br />
+5- Sping.
+<br />
+6- Animated NavBar.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### `Structure`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Note: this is an initial structure and subject to change depending on progress!**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img width="843" alt="structure" src="https://user-images.githubusercontent.com/67381036/88608879-c3d99880-d050-11ea-947d-157c48e89847.png">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Home Page
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+**Note: this is an initial design and subject to change depending on progress!**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+<img width="823" alt="Home" src="https://user-images.githubusercontent.com/67381036/88608957-f1bedd00-d050-11ea-9906-32f90f668b9a.png">
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+### Skincare page
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+**Note: this is an initial design and subject to change depending on progress!**
 
-### Advanced Configuration
+<img width="839" alt="SkinCare" src="https://user-images.githubusercontent.com/67381036/88609017-174be680-d051-11ea-937a-b2dbea21a6b8.png">
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
+### Makeup page
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+<img width="833" alt="Makeup" src="https://user-images.githubusercontent.com/67381036/88609038-20d54e80-d051-11ea-9866-b14b5e0c2959.png">
 
-### `npm run build` fails to minify
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Possible implementations:
+
+Redux
+
+### After cloning
+
+Run npm i
