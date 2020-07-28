@@ -6,11 +6,11 @@ export default class componentName extends Component {
     }
 
     componentDidMount(){
-        
+
     }
     render() {
         return (
-            <div>
+            <div className="skincare-component">
                 <h2> I am the skincare component</h2>
             </div>
         )

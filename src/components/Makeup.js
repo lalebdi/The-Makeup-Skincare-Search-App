@@ -10,7 +10,7 @@ export default class componentName extends Component {
     }
     render() {
         return (
-            <div>
+            <div className="makeup-component">
                 <h2> I am the makeup Component</h2>
             </div>
         )
