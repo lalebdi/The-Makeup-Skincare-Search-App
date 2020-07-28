@@ -95,3 +95,5 @@ Run npm i
 07/30 - 08/01 : Coding and testing. 
 <br />
 08/02 : Styling and final touches. 
+
+- ready to present
