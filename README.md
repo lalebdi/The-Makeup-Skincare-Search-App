@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## The Makeup & Skincare Search Database:
+## The Makeup & Skincare Search App:
 <br />
 The makeup and skincare industries are billion dollar industries with continuous innovation and advancement. 
 <br />
