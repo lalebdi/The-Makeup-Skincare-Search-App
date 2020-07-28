@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## The Makeup & Skincare Search Database:
+## The Makeup & Skincare Search App:
 <br />
 The makeup and skincare industries are billion dollar industries with continuous innovation and advancement. 
 <br />
@@ -84,3 +84,14 @@ Redux
 ### After cloning
 
 Run npm i
+
+
+## Timeline:
+
+07/28 : App proposal and approval. Once granted will start with the App layout.
+<br />
+07/29 : Build the components and assign what component will be stateless functional and what to be a class.
+<br />
+07/30 - 08/01 : Coding and testing. 
+<br />
+08/02 : Styling and final touches. 
