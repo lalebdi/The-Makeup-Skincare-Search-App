@@ -21,7 +21,7 @@ export default class componentName extends Component {
     render() {
         return (
             <div className="skincare-component">
-                <input type="text" placeholder="search brand, name or ingredient"/>
+                <input type="text" placeholder="search brand, name or ingredient" />
                 <h2> I am the skincare component</h2>
                 {
                     this.state.info.map(cream =>

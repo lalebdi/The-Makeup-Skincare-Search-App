@@ -20,7 +20,7 @@ export default class componentName extends Component {
         return (
             <div className="makeup-component">
                 <h2> I am the makeup Component</h2>
-                <input type="text" placeholder="search brand, name or ingredient"/>
+                <input type="text" placeholder="search brand, name or category" />
                 {
                     this.state.info.map(makeup => {
                         console.log(makeup);
