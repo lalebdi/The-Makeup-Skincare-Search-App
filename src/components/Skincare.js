@@ -16,6 +16,8 @@ export default class componentName extends Component {
         .then(res => this.setState({info:res.data}))
         .catch(err => console.error(err.message))
     }
+
+    
     render() {
         return (
             <div className="skincare-component">
