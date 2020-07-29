@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const BASE_URL = 'http://makeup-api.herokuapp.com/api/v1/products.json'
 
-export default class componentName extends Component {
+export default class Makeup extends Component {
     constructor(){
         super()
         this.state = {
@@ -23,7 +23,7 @@ export default class componentName extends Component {
                 <input type="text" placeholder="search brand, name or category" />
                 {
                     this.state.info.map(makeup => {
-                        console.log(makeup);
+                        //console.log(makeup);
                         return(
                             <div>
                                 <h2> the name is: {makeup.name}</h2>
