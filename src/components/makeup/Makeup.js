@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import SearchBox from './SearchBox';
+import ProductList from './ProductList';
 import axios from 'axios';
 
 const BASE_URL = 'http://makeup-api.herokuapp.com/api/v1/products.json'
