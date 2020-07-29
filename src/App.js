@@ -3,6 +3,7 @@ import './App.css';
 import Home from './components/Home';
 import Skincare from './components/Skincare';
 import Makeup from './components/Makeup';
+import NavBar from './components/NavBar'
 import NotFound from './components/NotFound';
 import {
   BrowserRouter as Router,
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <NavBar />
       <div>
       <Switch>
           <Route  exact path="/" component={Home}>
