@@ -29,7 +29,8 @@ export default class Makeup extends Component {
         }) 
         return (
             <div className="makeup-component">
-                
+                <SearchBox handleInput={this.handleInput} />
+                <ProductList filteredProducts={filteredProducts}/>
             </div>
         )
     }
