@@ -1,15 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { NavLink }  from 'reactstrap';
 
 export default class Home extends Component {
     render() {
         return (
             <div className="home-page">
-                <h4> Home Component</h4>
-
-                <div className="buttons">
-                    <button><a href="/skincare" className="myButton">Skincare</a></button>
-                    <button><a href="/makeup" className="myButton">Makeup</a></button>
-                </div>
+                    <button className="myButton"><NavLink href="/skincare" >Skincare</NavLink></button>
+                    <button className="myButton"><NavLink href="/makeup" >Makeup</NavLink></button>
             </div>
         )
     }
