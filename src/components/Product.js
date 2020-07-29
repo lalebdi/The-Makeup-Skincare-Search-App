@@ -5,6 +5,7 @@ export default function Product(props) {
         <div>
             <p> Name: {props.name} </p>
             <p> Brand: {props.brand} </p>
+            <p> Ingredients : {props.ingredient}</p>
         </div>
     )
 }
