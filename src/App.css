@@ -44,3 +44,19 @@
   width: 100%;
   height: 100%;
 }
+
+.skincare-component{
+  background-image: url('./assets/Images/skincare-bk.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.makeup-component{
+  background-image: url('./assets/Images/home-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
