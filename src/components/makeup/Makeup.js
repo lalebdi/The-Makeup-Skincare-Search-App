@@ -18,6 +18,10 @@ export default class Makeup extends Component {
         .catch(err => console.error(err.message))
     }
 
+    handleInput = (e) =>{
+        console.log(e.target.value);
+        this.setState({ searchProduct: e.target.value})
+    };
 
     render() {
         return (
