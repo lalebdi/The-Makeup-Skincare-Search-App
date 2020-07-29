@@ -24,6 +24,9 @@ export default class Makeup extends Component {
     };
 
     render() {
+        let filteredProducts = this.state.info.filter((product) => {
+            return (product.name.toLowerCase().includes(this.state.searchProduct.toLowerCase()) || product.brand.toLowerCase().includes(this.state.searchProduct.toLowerCase()))
+        }) 
         return (
             <div className="makeup-component">
                 
