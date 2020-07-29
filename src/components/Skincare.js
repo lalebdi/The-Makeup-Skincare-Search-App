@@ -34,7 +34,6 @@ export default class Skincare extends Component {
             <div className="skincare-component">
                 <SearchBox handleInput={this.handleInput} />
                 <ProductList filteredProducts={filteredProducts}/>
-                <h2> I am the skincare component</h2>
             </div>
         )
     }
