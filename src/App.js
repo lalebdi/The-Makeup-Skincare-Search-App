@@ -8,8 +8,7 @@ import NotFound from './components/NotFound';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {
