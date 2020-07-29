@@ -7,7 +7,8 @@ export default class Makeup extends Component {
     constructor(){
         super()
         this.state = {
-            info:[]
+            info:[],
+            searchProduct: ''
         };
     }
 
@@ -26,7 +27,7 @@ export default class Makeup extends Component {
                         //console.log(makeup);
                         return(
                             <div>
-                                <h2> the name is: {makeup.name}</h2>
+                               
                             </div>
                         )
                     })
