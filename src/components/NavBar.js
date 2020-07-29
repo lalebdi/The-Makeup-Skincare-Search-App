@@ -35,11 +35,15 @@ const Example = (props) => {
               </DropdownToggle>
               <DropdownMenu right>
                 <DropdownItem>
+                    <NavLink href="/skincare">
                   Skincare
+                  </NavLink>
                 </DropdownItem>
                 <DropdownItem divider />
                 <DropdownItem>
+                <NavLink href="/makeup">
                   Makeup
+                  </NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
