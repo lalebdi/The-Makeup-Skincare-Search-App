@@ -1,43 +1,40 @@
-import React, { Component, useState, useEffect } from 'react';
+import React, { Component } from 'react';
+import SearchBox from './SearchBox';
+import ProductList from './ProductList';
 import axios from 'axios';
 
 const BASE_URL = 'https://skincare-api.herokuapp.com/product?q=rose&limit=25&page=1'
 
 export default class Skincare extends Component {
-    const [skincare, setSkincare] = useState([]);
-    const [loading, setLoading] = useState(false);
-    const [search, setSearch] = useState("");
-    const [filteredProducts, setFilteredProducts] = useState([]);
+    constructor(props){
+        super(props)
+        this.state = {
+            info:[],
+            searchProduct: ''
+        };
+    }
 
-    useEffect(() =>{
-        setLoading(true);
-        axios
-        .get(BASE_URL)
-        .then(res =>{
-            setSkincare(res.data);
-            setLoading(false);
-        })
-        .catch(err => {
-            console.log(err);
-        });
-    }, [])
+    componentDidMount(){
+        axios.get(BASE_URL)
+        .then(res => this.setState({info:res.data}))
+        .catch(err => console.error(err.message))
+    }
 
+    handleInput = (e) =>{
+        console.log(e.target.value);
+        this.setState({ searchProduct: e.target.value})
+    };
 
     render() {
+        let filteredProducts = this.state.info.filter((product) => {
+            return product.name.toLowerCase().includes(this.state.searchProduct.toLowerCase())
+        }) 
+
         return (
             <div className="skincare-component">
-                <input type="text" placeholder="search brand, name or ingredient" />
+                <SearchBox handleInput={this.handleInput} />
+                <ProductList filteredProducts={filteredProducts}/>
                 <h2> I am the skincare component</h2>
-                {
-                    this.state.info.map(cream =>
-                        { //console.log(cream);
-                        return(
-                            <div>
-                                <h2> the name is : {cream.name}</h2>
-                            </div>
-                        )
-                        })
-                }
             </div>
         )
     }
