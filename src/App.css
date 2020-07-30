@@ -22,7 +22,7 @@
   background-image: url('./assets/Images/makeup-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 
@@ -109,13 +109,14 @@
 }
 
 .makeup-wrapper{
-  display: inline-block;
+  display: flex;
   flex-direction: row;
+  position: relative;
+  align-items: center;
 } 
 
 .bella-pic{
   width: 50%;
-  /* border-radius: 50%; */
 }
 
 .NotFound-page{
