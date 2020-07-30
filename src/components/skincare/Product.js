@@ -1,11 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Collapse, Button, CardBody, Card } from 'reactstrap';
 
-export default function Product(props) {
-    return (
-        <div>
-            <p> Name: {props.name} </p>
-            <p> Brand: {props.brand} </p>
-            <p> Ingredients : {props.ingredient}</p>
-        </div>
-    )
+const Example = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
+
+  return (
+    <div>
+      <Button color="secondary" onClick={toggle} style={{ marginBottom: '1rem' }}>{props.brand} :  {props.name} </Button>
+      <Collapse isOpen={isOpen}>
+        <Card>
+          <CardBody>
+          {props.ingredient}
+          </CardBody>
+        </Card>
+      </Collapse>
+    </div>
+  );
 }
+
+export default Example;
+
+
+
