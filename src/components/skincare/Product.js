@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Collapse, Button, CardBody, Card } from 'reactstrap';
 
+// Rendering the data found here
+
 const Example = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 

@@ -1,5 +1,7 @@
 import React from 'react';
 
+// the handleInput function passed here as a prop
+
 export default function SearchBox(props) {
     return (
         <div>

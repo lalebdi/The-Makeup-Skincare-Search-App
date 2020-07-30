@@ -4,6 +4,8 @@ import {
   CardTitle, CardSubtitle
 } from 'reactstrap';
 
+// rendering the data here
+
 const Example = (props) => {
   return (
     <div className="makeup-wrapper">
