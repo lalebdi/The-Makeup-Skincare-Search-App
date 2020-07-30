@@ -50,7 +50,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 300vh;
 }
 
 .makeup-component{
@@ -58,7 +58,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 300vh;
+}
+
+.NotFound-page{
+  background-image: url('./assets/Images/notFound.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200vh;
 }
 
 .myButton {
@@ -94,4 +102,28 @@
   justify-content: space-evenly;
   margin-top: 8%;
   margin-left: 10%;
+}
+
+.search-box{
+  width: 45%;
+  border: darkgray;
+  border-radius: 6px;
+  font-size: larger;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card{
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+              0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.makeup-card{
+  display: flex;
+  flex-direction: row;
+  margin:  10px;
+  padding: 5px;
+  width: 50vw;
+  height: 50vh;
 }

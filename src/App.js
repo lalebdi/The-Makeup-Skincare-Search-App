@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import Home from './components/Home';
-import Skincare from './components/Skincare';
-import Makeup from './components/Makeup';
+import Skincare from './components/skincare/Skincare';
+import Makeup from './components/makeup/Makeup';
 import NavBar from './components/NavBar'
 import NotFound from './components/NotFound';
 import {
