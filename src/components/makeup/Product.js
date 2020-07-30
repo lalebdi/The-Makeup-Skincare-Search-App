@@ -7,7 +7,7 @@ import {
 const Example = (props) => {
   return (
     <div className="makeup-card">
-      <Card className="card">
+      <Card className="makeup-card">
         <CardBody>
           <CardTitle>{props.brand}</CardTitle>
           <CardSubtitle>{props.name}</CardSubtitle>

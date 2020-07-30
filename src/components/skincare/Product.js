@@ -7,10 +7,10 @@ const Example = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <Button color="secondary" onClick={toggle} style={{ marginBottom: '1rem' }}>{props.brand} :  {props.name} </Button>
+    <div className="skin-cards">
+      <Button color="secondary" onClick={toggle} style={{ marginBottom: '1rem' }} className="skin-btn" >{props.brand} :  {props.name} </Button>
       <Collapse isOpen={isOpen}>
-        <Card>
+        <Card className="skin-part">
           <CardBody>
           {props.ingredient}
           </CardBody>
