@@ -25,8 +25,10 @@ export default class Makeup extends Component {
         this.setState({ searchProduct: e.target.value})
     };
 
+    
     render() {
         let filteredProducts = this.state.info.filter((product) => {
+            console.log(product)
             return (product.name.toLowerCase().includes(this.state.searchProduct.toLowerCase()) || product.brand.toLowerCase().includes(this.state.searchProduct.toLowerCase()))
         }) 
         return (
