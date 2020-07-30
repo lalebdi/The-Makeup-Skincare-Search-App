@@ -6,7 +6,7 @@ import {
 
 const Example = (props) => {
   return (
-    <div className="makeup-card">
+    <div className="makeup-wrapper">
       <Card className="makeup-card">
         <CardBody>
           <CardTitle>{props.brand}</CardTitle>
