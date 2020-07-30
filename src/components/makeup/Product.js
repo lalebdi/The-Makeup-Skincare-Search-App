@@ -6,13 +6,13 @@ import {
 
 const Example = (props) => {
   return (
-    <div>
+    <div className="makeup-card">
       <Card className="card">
         <CardBody>
           <CardTitle>{props.brand}</CardTitle>
           <CardSubtitle>{props.name}</CardSubtitle>
         </CardBody>
-        <img width="25%" src={props.image} alt="Products" />
+        <img width="100%" src={props.image} alt="Products" />
         <CardBody>
           <CardText>{props.description}</CardText>
           <CardText> $ {props.price}</CardText>
