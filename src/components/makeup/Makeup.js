@@ -27,14 +27,17 @@ export default class Makeup extends Component {
 
     
     render() {
-        let filteredProducts = this.state.info.filter((product) => {
-            console.log(product)
+        let filteredProducts1 = this.state.info.filter((product) => {
+            // debugger;
+            // console.log(product, this.state.searchProduct);
+          if(product.name && product.brand) {
             return (product.name.toLowerCase().includes(this.state.searchProduct.toLowerCase()) || product.brand.toLowerCase().includes(this.state.searchProduct.toLowerCase()))
-        }) 
+          }
+        })
         return (
             <div className="makeup-component">
                 <SearchBox handleInput={this.handleInput} />
-                <ProductList filteredProducts={filteredProducts}/>
+                <ProductList filteredProducts1={filteredProducts1}/>
             </div>
         )
     }
