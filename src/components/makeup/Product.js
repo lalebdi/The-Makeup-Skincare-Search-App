@@ -6,6 +6,8 @@ export default function Product(props) {
             <p> Name: {props.name} </p>
             <p> Brand: {props.brand} </p>
             <p> Description : {props.description}</p>
+            <img src={props.image} /> 
+            <p> price: {props.price} </p>
         </div>
     )
 }
