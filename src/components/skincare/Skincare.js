@@ -27,12 +27,15 @@ export default class Skincare extends Component {
 
     render() {
         let filteredProducts = this.state.info.filter((product) => {
+            // console.log(product)
             return (product.name.toLowerCase().includes(this.state.searchProduct.toLowerCase()) || product.brand.toLowerCase().includes(this.state.searchProduct.toLowerCase()))
         }) 
 
         return (
             <div className="skincare-component">
+                <br />
                 <SearchBox handleInput={this.handleInput} />
+                <br />
                 <ProductList filteredProducts={filteredProducts}/>
             </div>
         )
