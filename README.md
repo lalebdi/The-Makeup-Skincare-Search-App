@@ -82,6 +82,8 @@ Mainly time, however, I would like to implement some of React's features:
 Redux
 </br> 
 Pagination
+</br>
+Spinner
 
 ### After cloning
 
