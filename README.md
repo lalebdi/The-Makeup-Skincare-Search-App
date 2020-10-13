@@ -90,7 +90,6 @@ Spinner
 Run npm i
 
 
-## Timeline:
 
 
 
