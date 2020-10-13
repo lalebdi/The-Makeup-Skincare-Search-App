@@ -92,7 +92,6 @@ Run npm i
 
 ## Timeline:
 
-07/28 : App proposal and approval. Once granted will start with the App layout.
 
 
 
