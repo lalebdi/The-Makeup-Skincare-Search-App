@@ -100,4 +100,3 @@ Run npm i
 <br />
 08/02 : Styling and final touches. 
 
-- ready to present
