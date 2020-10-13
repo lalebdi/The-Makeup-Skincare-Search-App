@@ -97,6 +97,5 @@ Run npm i
 07/29 : Build the components and assign what component will be stateless functional and what to be a class.
 <br />
 07/30 - 08/01 : Coding and testing. 
-<br />
-08/02 : Styling and final touches. 
+
 
