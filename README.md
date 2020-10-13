@@ -80,6 +80,8 @@ Mainly time, however, I would like to implement some of React's features:
 ### Possible implementations:
 
 Redux
+</br> 
+Pagination
 
 ### After cloning
 
