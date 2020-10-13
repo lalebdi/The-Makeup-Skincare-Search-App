@@ -93,8 +93,6 @@ Run npm i
 ## Timeline:
 
 07/28 : App proposal and approval. Once granted will start with the App layout.
-<br />
-07/29 : Build the components and assign what component will be stateless functional and what to be a class.
- 
+
 
 
